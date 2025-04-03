@@ -7,64 +7,6 @@ body {
     overflow-x: hidden;
 }
 
-/* ===== CABEÇALHO ===== */
-header {
-    display: flex;
-    align-items: center;
-    background-color: rgb(180, 128, 229);
-    width: 100%;
-    color: aliceblue;
-    padding: 10px 20px;
-}
-
-img {
-    height: 100px;
-    width: 100px;
-    margin: 0;
-}
-
-h1 {
-    padding-right: 50px;
-}
-
-.logo-search {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-}
-
-.search input {
-    border: 1px solid #ccc;
-    border-radius: 20px;
-    padding: 5px 1s0px;
-    height: 60px;
-    width: 600px;
-}
-
-.icons {
-    padding-left: 15px;
-    padding-right: 20px;
-    display: flex;
-}
-
-#divisorVertical {
-    height: 70px;
-    border-left: 2px solid;
-    padding-right: 10px;
-    padding-left: 30px;
-}
-
-.entrada {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.entrada>a {
-    color: aliceblue;
-    text-decoration: none;
-}
-
 /* ===== NAVEGAÇÃO ===== */
 #divisorNav {
     border-bottom: 2px solid;
@@ -94,51 +36,4 @@ nav>a:hover {
     background-color: white;
     color: rgb(180, 128, 229);
     transition-duration: 0.8s;
-}
-
-/* ===== SERVIÇOS ===== */
-section {
-    display: flex;
-    align-items: center;
-    margin-top: 50px; /*Afasta do nav*/
-    justify-content: space-between;/* Distribui uniformemente sem criar espaços irregulares */
-    width: 80%; /* Limita a largura da seção */
-    margin-left: auto; /*Centraliza*/
-    margin-right: auto; /*Centraliza*/
-}
-
-.container-servico {
-    display: flex;
-    justify-content: space-between;/* Distribui os elementos corretamente */
-    width: 100%; /* Garante que o container ocupe toda a largura disponível */
-    gap: 100px; /* Adiciona espaço entre os itens */
-}
-
-.servico {
-    background-color: rgb(210, 185, 233);
-    display: flex; /*Alinha texto*/
-    justify-content: center; /*Alinha texto*/
-    align-items: center; /*Alinha texto*/
-    height: 45px;
-    width: 255px;
-    border-radius: 15px;
-    color: #ffffff;
-    padding: 10px;
-}
-
-/* ===== RODAPÉ ===== */
-footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(180, 128, 229);
-}
-
-footer>h4 {
-    color: rgb(231, 231, 231);
-    font-weight: 300;
 }

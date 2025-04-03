@@ -1,0 +1,29 @@
+/* ===== SERVIÇOS ===== */
+section {
+    display: flex;
+    align-items: center;
+    margin-top: 50px; /*Afasta do nav*/
+    justify-content: space-between;/* Distribui uniformemente sem criar espaços irregulares */
+    width: 80%; /* Limita a largura da seção */
+    margin-left: auto; /*Centraliza*/
+    margin-right: auto; /*Centraliza*/
+}
+
+.container-servico {
+    display: flex;
+    justify-content: space-between;/* Distribui os elementos corretamente */
+    width: 100%; /* Garante que o container ocupe toda a largura disponível */
+    gap: 100px; /* Adiciona espaço entre os itens */
+}
+
+.servico {
+    background-color: rgb(210, 185, 233);
+    display: flex; /*Alinha texto*/
+    justify-content: center; /*Alinha texto*/
+    align-items: center; /*Alinha texto*/
+    height: 45px;
+    width: 255px;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 10px;
+}
