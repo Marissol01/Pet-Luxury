@@ -1,16 +1,63 @@
 /* ===== RODAPÉ ===== */
-footer {
-    
-    bottom: 0;
+.rodape {
+    margin-top: auto; /* Mágica: empurra o footer para baixo */
     width: 100%;
-    height: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 100px;
     background-color: #7a6a53;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-footer>h4 {
-    color: rgb(231, 231, 231);
-    font-weight: 300;
+.rodape-social{
+    flex-grow: 1;
+    min-height: 80px;
+    padding: 0;
+    margin: 0;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.rodape-social a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-social h5{
+    color: white;
+    align-self: center;
+}
+
+.contatoIcon{
+    width: 50px;
+    height: 50px;
+}
+
+#facebookIcon{
+    width: 37px;
+    height: 37px;
+}
+
+.rodape-copyright{
+    background-color:#6e6250;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    flex-grow: 2;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rodape-copyright p{
+    color: white;
+    padding: 0;
+    margin: 0;
 }

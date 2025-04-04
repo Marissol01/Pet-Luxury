@@ -1,11 +1,15 @@
 .container {
-    padding: 20px; 
+    padding: 10px; 
   }
+
+section:has(.container) {  /* Seletor que pega a section que contém .container */
+    margin-top: 15px;     /* Ajuste este valor para controlar o espaço */
+}
   
 h2 {
     color: #493f30;
     text-align: center; 
-    margin-bottom: 20px; 
+    margin-bottom: 15px; 
   }
   
 .produtos {
@@ -13,7 +17,7 @@ h2 {
     width: 100%;
     display: flex;
     justify-content: center;
-    gap: 5px;
+    gap: 8px;
   }
   
 .produto {

@@ -1,12 +1,13 @@
 /* ===== ESTRUTURA GLOBAL ===== */
 body {
-    background-color: rgb(255, 240, 221);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ocupa no mínimo a tela toda */
     margin: 0;
     padding: 0;
-    padding-bottom: 50px;
+    background-color: rgb(255, 240, 221);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow-x: hidden;
-    
 }
 
 
