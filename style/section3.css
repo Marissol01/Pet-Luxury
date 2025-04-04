@@ -1,0 +1,49 @@
+.container {
+    padding: 20px; 
+  }
+  
+h2 {
+    color: #493f30;
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+.produtos {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+  }
+  
+.produto {
+    background-color: rgb(240, 230, 217);
+    width: 240px;
+    height: 250px;
+    margin: 5px;
+    transition: width 0.3s ease;
+    border-radius: 15%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+  }
+  
+.imgProduto {
+    width: 350px;
+    height: 150px;
+    object-fit: contain;
+    align-self: center;
+  }
+  
+h4 {
+    color: #493f30;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 36px;
+  }
+  
+.preco {
+    color: #493f30;
+    padding-left: 1px; 
+  }

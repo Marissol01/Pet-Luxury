@@ -1,11 +1,14 @@
 /* ===== ESTRUTURA GLOBAL ===== */
 body {
-    background-color: rgb(245, 247, 248);
+    background-color: rgb(255, 240, 221);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
     padding: 0;
+    padding-bottom: 50px;
     overflow-x: hidden;
+    
 }
+
 
 /* ===== NAVEGAÇÃO ===== */
 #divisorNav {
@@ -14,7 +17,7 @@ body {
 }
 
 nav {
-    background-color: rgb(180, 128, 229);
+    background-color: #7a6a53;
     display: flex;
     justify-content: space-between;
     padding: 0px 2%; /* Menos espaçamento horizontal */
@@ -34,6 +37,6 @@ nav>a {
 
 nav>a:hover {
     background-color: white;
-    color: rgb(180, 128, 229);
+    color: #7a6a53;
     transition-duration: 0.8s;
 }

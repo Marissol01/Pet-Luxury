@@ -1,5 +1,5 @@
 /* ===== SERVIÇOS ===== */
-section {
+#section1 {
     display: flex;
     align-items: center;
     margin-top: 50px; /*Afasta do nav*/
@@ -17,7 +17,7 @@ section {
 }
 
 .servico {
-    background-color: rgb(210, 185, 233);
+    background-color: #6e6250;
     display: flex; /*Alinha texto*/
     justify-content: center; /*Alinha texto*/
     align-items: center; /*Alinha texto*/
