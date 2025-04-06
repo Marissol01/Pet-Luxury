@@ -10,10 +10,11 @@ section {
 }
 
 .container-servico {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-between;/* Distribui os elementos corretamente */
-    width: 100%; /* Garante que o container ocupe toda a largura disponível */
-    gap: 100px; /* Adiciona espaço entre os itens */
+    width: 100%; /* Container ocupa toda a largura disponível */
+    gap: 10px; /* Adiciona espaço entre os itens */
 }
 
 .servico {
@@ -22,7 +23,7 @@ section {
     justify-content: center; /*Alinha texto*/
     align-items: center; /*Alinha texto*/
     height: 45px;
-    width: 255px;
+    width: 230px;
     border-radius: 15px;
     color: #ffffff;
     padding: 10px;

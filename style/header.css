@@ -1,6 +1,8 @@
 /* ===== CABEÇALHO ===== */
 header {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
     background-color: #7a6a53;
     width: 100%;
@@ -8,16 +10,19 @@ header {
     padding: 10px 20px;
 }
 
+/* ===== LOGO ===== */
+
 #logo {
     height: 100px;
     width: 100px;
-    margin: 0;
+    margin: 10;
 }
 
 h1 {
-    padding-right: 50px;
+    padding-right: 20px;
 }
 
+/* ===== BARRA DE PESQUISA ===== */
 .logo-search {
     display: flex;
     align-items: center;
@@ -27,31 +32,31 @@ h1 {
 .search input {
     border: 1px solid #ccc;
     border-radius: 20px;
-    padding: 5px 1s0px;
+    padding: 5px 1s 0px;
     height: 60px;
-    width: 600px;
+    min-width: 400px;
+    width: 100%;
 }
 
+/* ===== FAVORITOS E CARRINHO ===== */
 .icons {
-    padding-left: 15px;
-    padding-right: 20px;
     display: flex;
+    align-items: center;
+    gap: 20px; 
 }
 
-#favorito{
-    height: 100px;
-    width: 100px;
+#favorito, #carrinho {
+    height: 50px;
+    width: 50px;
+    margin: 0 10px; 
 }
 
-#carrinho{
-    height: 100px;
-    width: 100px;
-}
+/* ===== OPÇÕES DE ENTRADA ===== */
 
 #divisorVertical {
     height: 70px;
     border-left: 2px solid;
-    padding-right: 10px;
+    padding-right: 5px;
     padding-left: 30px;
 }
 
