@@ -1,25 +1,25 @@
 /* ===== CABEÇALHO ===== */
 header {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
     align-items: center;
     background-color: #7a6a53;
     width: 100%;
+    max-width: 100vw; 
     color: aliceblue;
-    padding: 10px 20px;
+    padding: 10px 5%; 
+    box-sizing: border-box; 
 }
 
 /* ===== LOGO ===== */
 
 #logo {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 280px;
     margin: 10;
-}
-
-h1 {
     padding-right: 20px;
+    padding-bottom: 5px;
 }
 
 /* ===== BARRA DE PESQUISA ===== */
