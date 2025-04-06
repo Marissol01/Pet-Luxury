@@ -12,6 +12,7 @@
 /* ===== SOCIAL ===== */
 
 .rodape-social{
+    flex-wrap: wrap;
     flex-grow: 1;
     min-height: 80px;
     padding: 0;
@@ -19,7 +20,7 @@
     width: 50%;
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 3px;
 }
 
 .rodape-social a{
@@ -44,6 +45,7 @@
 /* ===== COPYRIGHT ===== */
 
 .rodape-copyright{
+    flex-wrap: wrap;
     background-color:#6e6250;
     width: 100%;
     text-align: center;
