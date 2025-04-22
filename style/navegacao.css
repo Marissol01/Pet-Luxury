@@ -49,7 +49,6 @@
     top: 100% !important;
     transform: translateX(-50%) !important;
     margin-top: 0.2rem;
-    transition: all 0.3s ease;
 }
 
 .dropdown-item {
@@ -60,6 +59,7 @@
 .dropdown-item:hover, .dropdown-item:focus {
     background-color: #ffffff !important;
     color: #7a6a53 !important;
+    transition: background-color 0.4s ease;
 }
 
 @media (max-width: 768px) {
