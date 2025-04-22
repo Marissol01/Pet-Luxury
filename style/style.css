@@ -5,7 +5,7 @@ body {
     min-height: 100vh; /* Ocupa no mínimo a tela toda */
     margin: 0;
     padding: 0;
-    background-color: rgb(255, 240, 221);
+    background-color: rgb(255, 240, 221) !important;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     overflow-x: hidden;
 }

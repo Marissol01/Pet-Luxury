@@ -1,0 +1,6 @@
+- Menu fixo
+- Fazer nav com hierarquia
+- Seta para ir até o topo
+- Remover fundo branco de produtos
+- Melhorar responsividade
+- Organizar CSS
