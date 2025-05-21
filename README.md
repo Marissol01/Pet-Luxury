@@ -26,6 +26,5 @@ Este é o meu primeiro projeto web desenvolvido utilizando HTML, CSS, JavaScript
 - Integração com Bootstrap para acelerar o desenvolvimento
 - Solução de problemas comuns em desenvolvimento web
 
-♡ Agradecimentos
-Agradeço a todos os recursos online, tutoriais e comunidades que me ajudaram a realizar este primeiro projeto!
+♡ Agradeço a todos os recursos online, tutoriais e comunidades que me ajudaram a realizar este primeiro projeto!
 
