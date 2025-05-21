@@ -2,7 +2,7 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Ocupa no mínimo a tela toda */
+    min-height: 100vh; 
     margin: 0;
     padding: 0;
     background-color: rgb(255, 240, 221) !important;
