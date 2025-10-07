@@ -1,30 +1,18 @@
-❀ Meu Primeiro Projeto Web
+<div align="center"> <h1> Meu Primeiro Projeto Web 🐾 </h1> <img src="https://github.com/user-attachments/assets/a3f75e21-9e28-4812-aa22-793d17c2a920" alt="Ilustração Petshop" width="180" height="122"> <p><i>Uma homepage simples e responsiva desenvolvida para um Petshop</i></p> </div>
 
-➢ Visão Geral
-Este é o meu primeiro projeto web desenvolvido utilizando HTML, CSS, JavaScript e Bootstrap. Foi criado como um projeto de aprendizado para praticar os fundamentos do desenvolvimento front-end. A proposta foi criar uma homepage simples de um Petshop
+<h2>➢ Visão Geral </h2>
 
-➢ Tecnologias Utilizadas
-- HTML5 - Estruturação da página web
-- CSS3 - Estilização e design responsivo
-- JavaScript - Interatividade básica
-- Bootstrap 5 - Framework para design responsivo e componentes pré-construídos
+Este é o meu primeiro projeto web desenvolvido com HTML, CSS, JavaScript e Bootstrap.
+Foi criado com o objetivo de praticar os fundamentos do desenvolvimento front-end, explorando a estruturação de páginas, o uso de estilos responsivos e a implementação de interatividade básica.
 
-➢ Como Executar o Projeto
-1. Clone este repositório ou faça o download dos arquivos
-2. Abra o arquivo `index.html` em qualquer navegador moderno
-3. Explore o projeto!
+A proposta do projeto é uma homepage de um Petshop, com um visual agradável e intuitivo para o usuário.
 
-➢ Recursos Implementados
-- Componentes Bootstrap como navbar, cards e carrossel
-- Efeitos de hover e transições CSS
-- Interações simples com JavaScript
+<h2>➢ Tecnologias Utilizadas </h2>
 
-➢ O que Aprendi
-- Fundamentos de estrutura HTML
-- Estilização com CSS e criação de layouts responsivos
-- Uso básico de JavaScript para manipulação do DOM
-- Integração com Bootstrap para acelerar o desenvolvimento
-- Solução de problemas comuns em desenvolvimento web
+HTML5 → Estrutura da página web
 
-♡ Agradeço a todos os recursos online, tutoriais e comunidades que me ajudaram a realizar este primeiro projeto!
+CSS3 → Estilização e design responsivo
 
+JavaScript → Interatividade e manipulação do DOM
+
+Bootstrap 5 → Componentes pré-construídos e layout responsivo
