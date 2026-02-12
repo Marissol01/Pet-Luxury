@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PetLuxury</title>
+    <link rel="icon" type="image/x-icon" href="imagens/">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/header.css">
     <link rel="stylesheet" href="style/navegacao.css">
@@ -23,18 +24,20 @@
 
     <header>
 
-        <img id="logo" src="imagens/logo.png" alt="logo">
+        <img id="logo" src="imagens/logo.png" alt="Logo da Pet Luxury">
 
         <div class="search">
-            <input type="search" id="search" name="search" placeholder="O que seu pet precisa?">
+            <label for="search" class="visually-hidden">Buscar produtos</label>
+            <input type="search" id="search" placeholder="O que seu pet precisa?">
         </div>
+
+        <div class="user-area">
 
         <div id="icons">
             <a href="" title="Seus favoritos"><img id="favorito" src="https://img.icons8.com/ios/50/FFFFFF/like--v1.png"
                     alt="favorito"></a>
             <a href="" title="Seu carrinho"><img id="carrinho"
-                    src="https://img.icons8.com/ios/50/FFFFFF/shopping-cart--v1.png" alt="shopping-cart--v1"
-                    alt="carrinho"></a>
+                    src="https://img.icons8.com/ios/50/FFFFFF/shopping-cart--v1.png" alt="shopping-cart--v1"></a>
         </div>
 
 
@@ -45,6 +48,7 @@
             <a href="">Entrar</a>
         </div>
 
+        </div>
 
     </header>
 
@@ -205,7 +209,6 @@
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="#">Ração</a></li>
                             <li><a class="dropdown-item" href="#">Farmácia</a></li>
-                            <li><a class="dropdown-item" href="#"></a></li>
                             <li><a class="dropdown-item" href="#">Higiene</a></li>
                             <li><a class="dropdown-item" href="#">Aquaterrarios</a></li>
                             <li><a class="dropdown-item" href="#">Vitaminas</a></li>
@@ -263,7 +266,7 @@
                         class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Plano de Saúde</h5>
-                        <p>Vamos cuidar da saúde do seu pet! Oferecemos plano dentário, ortopédido entre outros!
+                        <p>Vamos cuidar da saúde do seu pet! Oferecemos plano dentário, ortopédico entre outros!
                         </p>
                     </div>
                 </div>
@@ -504,8 +507,6 @@
             });
         });
     </script>
-</body>
-
 </body>
 
 </html>

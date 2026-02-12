@@ -1,18 +1,47 @@
-<div align="center"> <h1> Meu Primeiro Projeto Web 🐾 </h1> <img src="https://github.com/user-attachments/assets/a3f75e21-9e28-4812-aa22-793d17c2a920" alt="Ilustração Petshop" width="180" height="122"> <p><i>Uma homepage simples e responsiva desenvolvida para um Petshop</i></p> </div>
+<div align="center">
 
-<h2>➢ Visão Geral </h2>
+# 🐾 Meu Primeiro Projeto Web
 
-Este é o meu primeiro projeto web desenvolvido com HTML, CSS, JavaScript e Bootstrap.
-Foi criado com o objetivo de praticar os fundamentos do desenvolvimento front-end, explorando a estruturação de páginas, o uso de estilos responsivos e a implementação de interatividade básica.
+<img src="https://github.com/user-attachments/assets/a3f75e21-9e28-4812-aa22-793d17c2a920" 
+alt="Ilustração Petshop" 
+width="180" 
+height="122">
 
-A proposta do projeto é uma homepage de um Petshop, com um visual agradável e intuitivo para o usuário.
+<p><i>Homepage responsiva desenvolvida para um Petshop</i></p>
 
-<h2>➢ Tecnologias Utilizadas </h2>
+</div>
 
-HTML5 → Estrutura da página web
+## Sobre o Projeto
 
-CSS3 → Estilização e design responsivo
+Este foi o meu primeiro projeto web desenvolvido com **HTML, CSS, JavaScript e Bootstrap**.
 
-JavaScript → Interatividade e manipulação do DOM
+O objetivo foi praticar os fundamentos do desenvolvimento front-end, incluindo:
 
-Bootstrap 5 → Componentes pré-construídos e layout responsivo
+- Estruturação semântica com HTML5  
+- Estilização e responsividade com CSS3  
+- Uso de componentes do Bootstrap 5  
+- Manipulação básica do DOM com JavaScript  
+
+A proposta consiste em uma homepage para um Petshop, com layout simples, visual agradável e navegação intuitiva.
+
+## Tecnologias Utilizadas
+
+- **HTML5** — Estrutura da aplicação  
+- **CSS3** — Estilização e design responsivo  
+- **JavaScript** — Interatividade básica  
+- **Bootstrap 5** — Grid system e componentes  
+
+## Aprendizados
+
+Durante o desenvolvimento deste projeto, pude:
+
+- Compreender melhor a estrutura de uma página web
+- Trabalhar com layout responsivo
+- Integrar JavaScript a elementos da interface
+- Utilizar componentes prontos do Bootstrap de forma estratégica
+
+## Como Executar o Projeto
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
