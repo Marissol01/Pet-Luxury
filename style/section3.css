@@ -1,45 +1,49 @@
-/* ===== PRODUTOS ===== */
-.product-card {
-  transition: all 0.1s ease;
-  max-width: 250px; 
-  margin: 0 auto; 
+/* ===== SERVIÇOS - VERSÃO CORRIGIDA ===== */
+section {
+    margin-top: 20px;
 }
 
-.card-img-top {
-  background-color: #ffffff;
-  border-radius: 5px 5px 0 0;
-  padding: 15px; 
-  height: 160px; 
+.carousel {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
 }
 
-.card-img-top img {
-  max-height: 130px; 
-  width: auto;
-  margin: 0 auto;
-  object-fit: contain;
+.carousel-inner,
+.carousel-item,
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.card-body {
-  padding: 1rem; 
+
+.carousel-caption {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(to top, rgba(230, 224, 216, 0.9) 0%, rgba(219, 211, 199, 0.404) 100%);
+    color: #463c2e;
 }
 
-.card-title {
-  font-size: 0.9rem; 
-  margin-bottom: 0.5rem;
+/* Título */
+.carousel-caption h5 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #463c2e;
 }
 
-.card-text {
-  font-size: 0.8rem; 
+/* Parágrafo */
+.carousel-caption p {
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: #463c2e;
 }
 
-.product-card:hover {
-  box-shadow: 0 5px 15px rgba(236, 221, 203, 0.7) !important;
-}
 
-button.btn.btn-primary.w-100 {
-  background-color: rgb(236, 202, 156) !important;
-  border-color: rgb(177, 159, 137) !important;
-  color: #333 !important;
-  padding: 0.375rem 0.75rem; 
-  font-size: 0.8rem; 
-}
+

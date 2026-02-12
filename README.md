@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🐾 Meu Primeiro Projeto Web
+# Meu Primeiro Projeto Web
 
 <img src="https://github.com/user-attachments/assets/a3f75e21-9e28-4812-aa22-793d17c2a920" 
 alt="Ilustração Petshop" 
